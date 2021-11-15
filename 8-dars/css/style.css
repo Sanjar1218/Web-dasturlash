@@ -1,0 +1,46 @@
+.box {
+    display: flex;
+    background-color: rgb(230, 221, 230);
+}
+h3 {
+    padding: 10px;
+}
+#b1 {
+    color: white;
+    background-color: blue;
+    border: 0;
+    border-radius: 50%;
+    position: fixed;
+    left: 110px;
+    top: 28px;
+}
+#b2 {
+    border: 0;
+    color: white;
+    background-color: blue;
+    margin: 0;
+    border-radius: 50%;
+    position: fixed;
+    left: 200px;
+    top: 28px;
+}
+#b3 {
+    color: white;
+    background-color: blue;
+    border: 0;
+    margin: 0;
+    border-radius: 50%;
+    position: fixed;
+    left: 300px;
+    top: 28px;
+}
+#b4 {
+    color: white;
+    background-color: blue;
+    border: 0;
+    margin: 0;
+    border-radius: 50%;
+    position: fixed;
+    left: 440px;
+    top: 28px;
+}
