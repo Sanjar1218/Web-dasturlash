@@ -1,0 +1,16 @@
+.box {
+    
+}
+.card {
+    width: 640px;
+    height: 480px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-color: rgb(153, 149, 149);
+    background-repeat: no-repeat;
+}
+.text {
+    text-align: right;
+    margin-right: 10px;
+    transform: translateY(-100px);
+}
