@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif;
+}
+.card {
+    width: 800px;
+}
+td {
+    padding: 10px;
+}
+#text2 {
+    margin-left: 20px;
+}
+#text3 {
+    margin-left: 20px;
+}
+#text4 {
+    margin-left: 400px;
+}
+#hidden {
+    visibility: hidden;
+}
