@@ -1,0 +1,70 @@
+.box {
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#B1{
+    height: 100px;
+    width: 200px;
+    border: none;
+    border-radius: 10%;
+    margin: 10px;
+    color: white;
+    background-image: linear-gradient(90deg, yellow, brown);
+}
+#B2{
+    height: 100px;
+    width: 200px;
+    border: none;
+    margin: 10px;
+    border-radius: 10%;
+    color: white;
+    background-image: linear-gradient(90deg, rgb(238, 75, 230), rgb(20, 71, 212));
+}
+#B3{
+    height: 100px;
+    width: 200px;
+    border: none;
+    margin: 10px;
+    border-radius: 10%;
+    color: white;
+    background-image: linear-gradient(90deg, rgb(49, 216, 85), rgb(11, 75, 196));
+}
+#B4{
+    height: 100px;
+    width: 320px;
+    border: none;
+    margin: 10px;
+    border-radius: 10%;
+    color: white;
+    background-image: linear-gradient(90deg, rgb(62, 221, 226), rgb(32, 30, 197));
+}
+#B5{
+    height: 100px;
+    width: 320px;
+    border: none;
+    margin: 10px;
+    border-radius: 10%;
+    color: white;
+    background-image: linear-gradient(90deg, rgb(235, 189, 92), rgb(180, 100, 9));
+}
+#B1:hover {
+    transition-duration: 3s;
+    background-image: linear-gradient(90deg, brown, yellow);
+}
+#B2:hover {
+    transition-duration: 3s;
+    background-image: linear-gradient(90deg, rgb(20, 71, 212), rgb(238, 75, 230));
+}
+#B3:hover {
+    transition-duration: 3s;
+    background-image: linear-gradient(90deg, rgb(11, 75, 196), rgb(49, 216, 85));
+}
+#B4:hover {
+    transition-duration: 3s;
+    background-image: linear-gradient(90deg, rgb(32, 30, 197), rgb(62, 221, 226));
+}
+#B5:hover {
+    transition-duration: 3s;
+    background-image: linear-gradient(90deg, rgb(180, 100, 9), rgb(235, 189, 92));

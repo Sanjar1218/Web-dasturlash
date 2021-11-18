@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(5, 5, 73);
+}
+.wrapper {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.box {
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 150px;
+    position: fixed;
+    animation: impulse 0.5s alternate 1s infinite;
+}
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+@keyframes impulse {
+    from {
+        transform: scale(0.8);
+    }
+    to {
+        transform: scale(0.85);
+    }
+}
+
+#r1{
+    opacity: 0.1;
+    background-image: radial-gradient(grey, white);
+    background-color: white;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    position: fixed;
+    top: 1px;
+    margin-top: 150px;
+    animation: impulse 0.5s alternate 1.3s infinite;
+}
+#r2{
+    opacity: 0.1;
+    background-image: radial-gradient(grey, white);
+    background-color: white;
+    width: 185px;
+    height: 185px;
+    border-radius: 50%;
+    position: fixed;
+    top: -8px;
+    margin-top: 150px;
+    animation: impulse 0.5s alternate 1.4s infinite;
+}
+#r3{
+    opacity: 0.1;
+    background-image: radial-gradient(grey, white);
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: fixed;
+    top: -14px;
+    margin-top: 150px;
+    animation: impulse 0.5s alternate 1.5s infinite;
+}

@@ -1,0 +1,7 @@
+table tr:nth-child(even) {
+  background-color: rgb(192, 187, 187);
+}
+table {
+  border-spacing: 0;
+  row-gap: 0;
+}

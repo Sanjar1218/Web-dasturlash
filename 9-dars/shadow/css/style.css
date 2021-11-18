@@ -1,0 +1,71 @@
+.box {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+p {
+    text-align: center;
+}
+.card1 {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    margin-right: 180px;
+    margin-bottom: 100px;
+    padding: 10px;
+    box-shadow: 0 3px 5px grey; 
+}
+.card2 {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    margin-right: 100px;
+    padding: 10px;
+    box-shadow: 0 8px 10px grey; 
+}
+.card3 {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    margin-left: 100px;
+    padding: 10px;
+    box-shadow: 0 10px 15px grey; 
+}
+.card4 {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 3px 5px grey; 
+}
+.card5 {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 5px 6px grey; 
+}
+.card6 {
+    border:1px;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 1px 0 15px grey; 
+}
+.card7 {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 3px 6px grey; 
+}
+.card8 {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 20px 20px grey; 
+}
