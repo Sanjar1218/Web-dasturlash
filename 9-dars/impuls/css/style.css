@@ -32,7 +32,7 @@ img {
 }
 
 #r1{
-    opacity: 0.1;
+    opacity: 0.2;
     background-image: radial-gradient(grey, white);
     background-color: white;
     width: 170px;
@@ -44,7 +44,7 @@ img {
     animation: impulse 0.5s alternate 1.3s infinite;
 }
 #r2{
-    opacity: 0.1;
+    opacity: 0.2;
     background-image: radial-gradient(grey, white);
     background-color: white;
     width: 185px;
@@ -56,7 +56,7 @@ img {
     animation: impulse 0.5s alternate 1.4s infinite;
 }
 #r3{
-    opacity: 0.1;
+    opacity: 0.2;
     background-image: radial-gradient(grey, white);
     background-color: white;
     width: 200px;
