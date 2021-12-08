@@ -1,0 +1,86 @@
+body .box .checked-label {
+  position: relative;
+}
+
+body .box .checked-label:hover span {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -6px;
+  left: 4px;
+  border-radius: 2px;
+  z-index: 3;
+  background-color: grey;
+}
+
+body .box .checked-label:hover::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 57%;
+  z-index: 5;
+  background-color: white;
+  border-radius: 2px;
+  -webkit-transform: translateX(12.5px) translateY(-7.5px) rotate(-51deg);
+          transform: translateX(12.5px) translateY(-7.5px) rotate(-51deg);
+  -webkit-transform-origin: left bottom;
+          transform-origin: left bottom;
+}
+
+body .box .checked-label:hover::before {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 35%;
+  width: 3px;
+  z-index: 5;
+  background-color: white;
+  content: "";
+  border-radius: 2px;
+  -webkit-transform: translateX(11px) translateY(-5.5px) rotate(-45deg);
+          transform: translateX(11px) translateY(-5.5px) rotate(-45deg);
+  -webkit-transform-origin: left bottom;
+          transform-origin: left bottom;
+}
+
+body .box input {
+  cursor: pointer;
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+body .box input:checked::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 75%;
+  background-color: white;
+  z-index: 40;
+  border-radius: 2px;
+  -webkit-transform: translateX(8.5px) translateY(-4.2px) rotate(-51deg);
+          transform: translateX(8.5px) translateY(-4.2px) rotate(-51deg);
+  -webkit-transform-origin: left bottom;
+          transform-origin: left bottom;
+}
+
+body .box input:checked::before {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 35%;
+  width: 3px;
+  background-color: white;
+  z-index: 40;
+  content: "";
+  border-radius: 2px;
+  -webkit-transform: translateX(8px) translateY(-1px) rotate(-45deg);
+          transform: translateX(8px) translateY(-1px) rotate(-45deg);
+  -webkit-transform-origin: left bottom;
+          transform-origin: left bottom;
+}
+/*# sourceMappingURL=style.css.map */
