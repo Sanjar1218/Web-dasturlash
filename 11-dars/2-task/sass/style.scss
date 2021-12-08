@@ -1,0 +1,120 @@
+$back-color: #af7ac5;
+
+body {
+    background-color: #ddf0fc;
+
+    .box {
+        width: 690px;
+        display: flex;
+        flex-wrap: wrap;
+
+        .card {
+            width: 150px;
+            text-align: center;
+            padding: 10px;
+            color: white;
+            background-color: $back-color;
+            position: relative;
+
+            .triangle {
+                width: 35px;
+                height: 35px;
+                position: absolute;
+                right: -10px;
+                z-index: 1;
+                top: 30%;
+                background-color: $back-color;
+                transform: rotate(45deg);
+
+            }
+
+            &:nth-child(1) {
+                background-color: $back-color;
+                
+                .triangle {
+                    background-color: $back-color;
+                }
+            }
+            &:nth-child(2) {
+                background-color: #5dade2;
+                
+                .triangle {
+                    // background-color: $back-color;
+                    background-color: #5dade2;
+                }
+            }
+
+            &:nth-child(3) {
+                background-color: #48c9b0;
+                
+                .triangle {
+                    background-color: #48c9b0;
+                }
+            }
+            &:nth-child(4) {
+                background-color: #52be80;
+                
+                .triangle {
+                    background-color: #52be80;
+                }
+            }
+            &:nth-child(5) {
+                background-color: #ecc837;
+                
+                .triangle {
+                    background-color: #ecc837;
+                }
+            }
+            &:nth-child(6) {
+                background-color: #eb984e;
+                
+                .triangle {
+                    background-color: #eb984e;
+                }
+            }
+            &:nth-child(7) {
+                background-color: #f06292;
+                
+                .triangle {
+                    background-color: #f06292;
+                }
+            }
+            &:nth-child(8) {
+                background-color: #4db6ac;
+                
+            }
+
+            &:hover {
+
+                .icon {
+                    transform: scale(1.5);
+                }
+
+                .triangle {
+                    background-color: #0b6ca9;
+                }
+
+                background-color: #0b6ca9;
+            }
+
+            .icon {
+                display: block;
+                position: absolute;
+                cursor: pointer;
+                left: 45%;
+            }
+
+            .para {
+                margin-top: 20px;
+                font-family: sans-serif;
+            }
+
+            .text {
+                margin-top: 40px;
+                font-family: sans-serif;
+            }
+
+            
+        }
+    }
+}

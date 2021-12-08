@@ -1,0 +1,124 @@
+body {
+  background-color: #ddf0fc;
+}
+
+body .box {
+  width: 690px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .box .card {
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  background-color: #af7ac5;
+  position: relative;
+}
+
+body .box .card .triangle {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  right: -10px;
+  z-index: 1;
+  top: 30%;
+  background-color: #af7ac5;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+body .box .card:nth-child(1) {
+  background-color: #af7ac5;
+}
+
+body .box .card:nth-child(1) .triangle {
+  background-color: #af7ac5;
+}
+
+body .box .card:nth-child(2) {
+  background-color: #5dade2;
+}
+
+body .box .card:nth-child(2) .triangle {
+  background-color: #5dade2;
+}
+
+body .box .card:nth-child(3) {
+  background-color: #48c9b0;
+}
+
+body .box .card:nth-child(3) .triangle {
+  background-color: #48c9b0;
+}
+
+body .box .card:nth-child(4) {
+  background-color: #52be80;
+}
+
+body .box .card:nth-child(4) .triangle {
+  background-color: #52be80;
+}
+
+body .box .card:nth-child(5) {
+  background-color: #ecc837;
+}
+
+body .box .card:nth-child(5) .triangle {
+  background-color: #ecc837;
+}
+
+body .box .card:nth-child(6) {
+  background-color: #eb984e;
+}
+
+body .box .card:nth-child(6) .triangle {
+  background-color: #eb984e;
+}
+
+body .box .card:nth-child(7) {
+  background-color: #f06292;
+}
+
+body .box .card:nth-child(7) .triangle {
+  background-color: #f06292;
+}
+
+body .box .card:nth-child(8) {
+  background-color: #4db6ac;
+}
+
+body .box .card:hover {
+  background-color: #0b6ca9;
+}
+
+body .box .card:hover .icon {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+body .box .card:hover .triangle {
+  background-color: #0b6ca9;
+}
+
+body .box .card .icon {
+  display: block;
+  position: absolute;
+  cursor: pointer;
+  left: 45%;
+}
+
+body .box .card .para {
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+
+body .box .card .text {
+  margin-top: 40px;
+  font-family: sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
