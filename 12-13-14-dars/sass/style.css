@@ -23,6 +23,11 @@
   src: url(../font/Poppins-SemiBold.ttf);
 }
 
+@font-face {
+  font-family: Inter-Medium;
+  src: url(../font/static/Inter-Medium.ttf);
+}
+
 * {
   color: #22343D;
   font-family: "Poppins-Regular";
@@ -452,5 +457,230 @@
 .box .round2 .box1 .center-section .extra-btn {
   margin-top: 48px;
   margin-bottom: 150px;
+}
+
+.box .element2 {
+  width: 1107px;
+  margin: 0 auto;
+}
+
+.box .element2 .parag {
+  font-family: "Poppins-Bold";
+  font-size: 34px;
+  line-height: 51px;
+  margin: 0;
+}
+
+.box .element2 .extra-text {
+  font-family: "Poppins-Medium";
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+.box .element2 .cart-box {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.box .element2 .cart-box .cart {
+  width: 348px;
+  border: 1px solid #DEDEDE;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.box .element2 .cart-box .cart .box-text {
+  width: 294px;
+  margin: 0 auto;
+}
+
+.box .element2 .cart-box .cart .box-text .active {
+  color: #02897A;
+}
+
+.box .element2 .cart-box .cart .box-text .new-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.box .element2 .cart-box .cart .box-text .new-text span {
+  font-family: "Poppins-Bold";
+}
+
+.box .element2 .cart-box .cart .box-text .bold-text {
+  font-family: "Poppins-Bold";
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.box .element2 .circle-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 64px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.box .element2 .circle-3 .round1 {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #EFEFEF;
+  margin-right: 10px;
+}
+
+.box .element2 .circle-3 .acitve-r {
+  background-color: #02897A;
+}
+
+.box .element3 {
+  width: 1110px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.box .element3 .bord {
+  position: absolute;
+  width: 99%;
+  top: 45%;
+  background: #AFAFAF;
+  z-index: -1;
+}
+
+.box .element3 .parag {
+  font-family: "Poppins-Bold";
+  font-size: 34px;
+  line-height: 51px;
+  margin: 0;
+}
+
+.box .element3 .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+}
+
+.box .element3 .cards .car {
+  text-align: center;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding: 24px 73px;
+}
+
+.box .element3 .cards .car .price {
+  font-family: "Poppins-Bold";
+  font-size: 24px;
+  line-height: 40px;
+  margin: 0;
+}
+
+.box .element3 .cards .car .description {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 40px;
+}
+
+.box .element3 .cards .car .num-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 154px;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.box .element3 .cards .car .num-box .num {
+  font-family: "Poppins-Bold";
+  font-size: 76px;
+  line-height: 100px;
+  color: #02897A;
+}
+
+.box .element3 .cards .car .num-box .month {
+  margin: auto 0;
+}
+
+.box .element3 .cards .car .num-box .month .symbol {
+  font-family: "Poppins-Bold";
+  margin: 0;
+  color: #02897A;
+  text-align: start;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.box .element3 .cards .car .num-box .month .per {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #AFAFAF;
+  letter-spacing: 0.1px;
+}
+
+.box .element3 .cards .car .group .medium {
+  font-family: "Inter-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+}
+
+.box .element3 .cards .active-car {
+  background-color: #02897A;
+}
+
+.box .element3 .cards .active-car .price {
+  color: white;
+}
+
+.box .element3 .cards .active-car .description {
+  color: white;
+}
+
+.box .element3 .cards .active-car .num-box .num {
+  color: white;
+}
+
+.box .element3 .cards .active-car .num-box .month .symbol {
+  color: white;
+}
+
+.box .element3 .cards .active-car .num-box .month .per {
+  color: white;
+}
+
+.box .element3 .cards .active-car .group .medium {
+  color: white;
+}
+
+.box .element3 .cards .active-car button {
+  color: #02897A;
+  background-color: white;
 }
 /*# sourceMappingURL=style.css.map */

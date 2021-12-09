@@ -18,6 +18,10 @@
     font-family: Poppins-SemiBold;
     src: url(../font/Poppins-SemiBold.ttf);
 }
+@font-face {
+    font-family: Inter-Medium;
+    src: url(../font/static/Inter-Medium.ttf)
+}
 
 $text-color: #22343D;
 $btn-color: #02897A;
@@ -399,5 +403,226 @@ $back-color: #E5E5E5;
 
     }
 
+    .element2 {
+        width: 1107px;
+        margin: 0 auto;
 
+        .parag {
+            font-family: "Poppins-Bold";
+            font-size: 34px;
+            line-height: 51px;
+            margin: 0;
+        }
+
+        .extra-text {
+            font-family: "Poppins-Medium";
+            font-style: normal;
+            font-weight: 500;
+            margin-top: 8px;
+        }
+
+        .cart-box {
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+
+            .cart {
+                width: 348px;
+                border: 1px solid #DEDEDE;
+                box-sizing: border-box;
+                border-radius: 8px;
+
+                .box-text {
+                    width: 294px;
+                    margin: 0 auto;
+
+                    .active {
+                        color: $btn-color;
+                    }
+
+                    .new-text {
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 28px;
+    
+                        span {
+                            font-family: "Poppins-Bold";
+                        }
+                    }
+                    
+                    .bold-text {
+                        font-family: "Poppins-Bold";
+                        font-size: 24px;
+                        line-height: 40px;
+                    }
+                }
+
+            }
+
+            
+        }
+        .circle-3 {
+            display: flex;
+            margin-top: 64px;
+            justify-content: center;
+
+            .round1 {
+                width: 16px;
+                height: 16px;
+                border-radius: 50%;
+                background-color: #EFEFEF;
+                margin-right: 10px;
+            }
+
+            .acitve-r {
+                background-color: $btn-color;
+            }
+        }
+    }
+
+    .element3 {
+        width: 1110px;
+        margin: 0 auto;
+        position: relative;
+        text-align: center;
+        margin-top: 150px;
+
+        .bord {
+            position: absolute;
+            width: 99%;
+            top: 45%;
+            background: #AFAFAF;
+            z-index: -1;
+            // border: 3px solid red;
+        }
+
+        .parag {
+            font-family: "Poppins-Bold";
+            font-size: 34px;
+            line-height: 51px;
+            margin: 0;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+
+            .car {
+                text-align: center;
+                background: #FFFFFF;
+                box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+                border-radius: 8px;
+                padding: 24px 73px;
+
+                .price {
+                    font-family: "Poppins-Bold";
+                    font-size: 24px;
+                    line-height: 40px;
+                    margin: 0;
+                }
+
+                .description {
+                    margin: 0;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 40px;
+                }
+
+                .num-box {
+                    display: flex;
+                    width: 154px;
+                    margin: 0 auto;
+                    justify-content: space-between;
+
+                    .num {
+                        font-family: "Poppins-Bold";
+                        font-size: 76px;
+                        line-height: 100px;
+                        color: $btn-color;
+                    }
+
+                    .month {
+                        margin: auto 0;
+
+                        .symbol {
+                            font-family: "Poppins-Bold";
+                            margin: 0;
+                            color: $btn-color;
+                            text-align: start;
+                            font-size: 24px;
+                            line-height: 30px;
+                        }
+
+                        .per {
+                            margin: 0;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 16px;
+                            line-height: 19px;
+                            color: #AFAFAF;
+                            letter-spacing: 0.1px;
+                        }
+                    }
+
+                }
+
+                .group {
+
+                    .medium {
+                        font-family: "Inter-Medium";
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 22px;
+                        letter-spacing: 0.2px;
+                    }
+
+                }
+            }
+
+            .active-car {
+                background-color: $btn-color;
+                
+                .price {
+                    color: white;
+                }
+
+                .description {
+                    color: white;
+                }
+
+                .num-box {
+                    .num {
+                        color: white;
+                    }
+
+                    .month {
+                        .symbol {
+                            color: white;
+                        }
+
+                        .per {
+                            color: white;
+                        }
+                    }
+                }
+
+                .group {
+                    .medium {
+                        color: white;
+                    }
+                }
+
+                button {
+                    color: $btn-color;
+                    background-color: white;
+                }
+
+            }
+        }
+
+    }
 }   
